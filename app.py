@@ -5,7 +5,7 @@ app = Flask(__name__)
   
 # A decorator used to tell the application
 # which URL is associated function
-@app.route('/data', methods =["GET", "POST"])
+@app.route('/', methods =["GET", "POST"])
 def gfg():
     if request.method == "POST":
        # getting input with name = fname in HTML form
@@ -16,4 +16,4 @@ def gfg():
     return render_template("index.html")
   
 if __name__ == '__main__':
-    app.run(host='localhost', port=5000, debug=True)
+    app.run(debug=True)
