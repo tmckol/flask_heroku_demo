@@ -1,3 +1,3 @@
 A demo app created using Flask and
 It deploy using Heroku
-![[](http://inputname.herokuapp.com/)
+[link](http://inputname.herokuapp.com/)
